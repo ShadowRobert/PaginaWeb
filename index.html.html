@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bienvenidos</title>
+</head>
+<body>
+    <div class="cuadro">
+        <h2>¡Bienvenida al Himalaya!</h2>
+        <p>¿Quieres un helado?</p>
+    </div>
+
+    
+<button onclick="mostrarImagen()" class="boton-estilizado">¡Toma tu helado!</button>
+<br /><br />
+<img 
+    id="scream-img" 
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBq5D_zJBypN8SPOx9lRspiNaF2Z2nxp2WAA&s" 
+    alt="Helado kawaii" 
+    style="display: none; max-width: 80%; border-radius: 8px; margin: 20px auto;"
+ 
+/>
+
+<script>
+    function mostrarImagen() {
+        const img = document.getElementById('scream-img');
+        img.style.display = 'block';
+    }
+</script>
+
+
+
+</body>
+</html>
